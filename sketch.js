@@ -145,7 +145,8 @@ if(gameState===PLAY){
   manBlock.velocityY=manBlock.velocityY+0.06;
   outBlock.x= man.x
   outBlock.y=man.y-55;
-
+  man.collide(standBlockGroup);
+manBlock.collide(standBlockGroup)
  
 
  
